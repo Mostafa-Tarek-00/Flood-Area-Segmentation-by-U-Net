@@ -39,17 +39,11 @@ After training the U-Net model on the flood area segmentation dataset, here are 
 
 - **Loss**: 0.2415
 - **Accuracy**: 0.8945
-- **IoU (Intersection over Union)**: 0.8693
-
-These scores indicate that the model has performed well on the training dataset. The IoU score of 0.8693 is particularly noteworthy, as it demonstrates the model's ability to accurately segment flood areas.
 
 Additionally, the validation scores for the same epoch are as follows:
 
 - **Validation Loss**: 0.3098
 - **Validation Accuracy**: 0.8537
-- **Validation IoU**: 0.6122
-
-These validation scores provide insights into the model's generalization performance on unseen data. The slightly lower IoU on validation data compared to training data suggests that the model might be slightly overfitting, but it still demonstrates a good level of accuracy and segmentation ability.
 
 The model's progress is also illustrated in the training history graphs for both loss and accuracy. The loss steadily decreases over epochs, while the accuracy shows improvement as well. However, it's important to monitor validation metrics to ensure that the model doesn't overfit.
 
