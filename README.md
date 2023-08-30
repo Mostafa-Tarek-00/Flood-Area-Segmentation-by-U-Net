@@ -5,7 +5,6 @@ This project implements a flood area segmentation model using the U-Net architec
 ## Table of Contents
 - [Introduction](#introduction)
 - [Model Architecture](#model-architecture)
-- [Data](#data)
 - [Training](#training)
 - [Predicting and Evaluation](#predicting-and-evaluation)
 - [Results](#results)
@@ -19,20 +18,6 @@ This project focuses on segmenting flood areas within images using a U-Net neura
 ## Model Architecture
 
 The U-Net architecture is implemented in the code. It consists of an encoding path, a bridge, and a decoding path. The encoding path extracts features from the input image, the bridge connects the encoding and decoding paths, and the decoding path generates the segmented output.
-
-## Data
-
-The dataset used for this project should be structured as follows:
-
-dataset_path
-│── Image
-│   ├── image_1.jpg
-│   ├── image_2.jpg
-│   └── ...
-│── Mask
-│   ├── mask_1.jpg
-│   ├── mask_2.jpg
-│   └── ...
 
 ## Training
 
@@ -76,9 +61,9 @@ Here's a visualization of the training history showing the changes in loss and a
 
 Next, let's visualize some sample predictions made by the trained model:
 
-![Sample Prediction 1](prediction_1.png)
-![Sample Prediction 2](prediction_2.png)
-![Sample Prediction 3](prediction_3.png)
+![Sample Prediction 1](Prediction_1.png)
+![Sample Prediction 2](Prediction_2.png)
+![Sample Prediction 3](Prediction_3.png)
 
 In these sample predictions, the first image is the input image, the second image is the true mask, and the third image is the predicted mask from the model. As shown, the model is able to accurately identify and segment flood areas in the input images.
 
